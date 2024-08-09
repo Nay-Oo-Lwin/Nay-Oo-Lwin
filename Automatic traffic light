@@ -1,0 +1,6 @@
+https://www.tinkercad.com/things/0lgDJZnG2f8-traffic-light-for-busy-main-road-and-a-side-street?sharecode=aDIMqI01338Uf1IQWp6QacC2jX1Ye6VtKwYgcPojSns
+
+This is the simulation for the traffic light between the busy main road and lightly busy side street. The main road has a higher priority and its light will stay green for a minimum of 95 seconds or as long as there is no vehicle on the side
+street. If any vehicle is detected by the sensor installed on the side street, the circuit will first check whether it has been 95s on the main road and if that so, the side street's light will turn green. If not it will still be red until
+the time is up. The side street will stay green as long as there is vehicle on the side street up to 95 second. After 95s, the main road will become green again. There is a yellow light for 3 seconds for any transition from green to red on both
+sides. Since this is just a simulation, the sensor is not included and assumed to have vehicle on the side street all the time. The clock signal for the traffic is controlled manually by a slide switch for demonstrative purpose.
